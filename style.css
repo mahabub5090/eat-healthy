@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    ;
+
+}
+
+/* section-topper */
+#topper {
+    display: flex;
+    width: 100%;
+    background-image: url(eat-healthy-main/eat-healthy-main/images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; (dorker nai,dile image full ashe na) */
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+.pic img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
+    /* margin-bottom: 10%; */
+}
+
+.head {
+    align-self: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 100%;
+
+}
+
+#skip {
+    color: orange;
+}
+
+.btn {
+
+    text-decoration: none;
+    padding: 10px;
+    background-image: linear-gradient(orange, red);
+    border-radius: 30px;
+
+
+}
+
+#topper p {
+    margin-bottom: 50px;
+}
+
+/* section-about */
+#about {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-image: url(eat-healthy-main/eat-healthy-main/images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; (dorker nai,dile image full ashe na) */
+    margin-left: 0;
+    padding-left: 0;
+    /* (topper er css property copy-paste korchi) */
+    padding-top: 5%;
+}
+
+#female-pic {
+
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#about-me {
+    align-self: center;
+
+    padding-right: 5%;
+    width: 100%;
+}
+
+#about p {
+    margin-bottom: 50px;
+}
+
+/* section-recipies item */
+
+#recipie-text {
+    text-align: center;
+    padding: 0 20%;
+    margin-top: 50px;
+}
+
+#recipie-item {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+
+/* recipie-card */
+.recipie-card {
+    box-shadow: 1px 1px 5px gray;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 0 10px;
+    width: 100%;
+
+}
+
+.recipie-card img {
+    border-radius: 15px;
+    width: 50%;
+}
+
+/* price,coupon,button */
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-style: italic;
+    color: deeppink;
+}
+
+.apply-code {
+    align-self: center;
+}
+
+.cp-code {
+    height: 30px;
+    border-style: double;
+    border-radius: 5px;
+    border-color: black;
+    background-color: gray;
+
+}
+
+.cp-code:hover {
+    background-color: aliceblue;
+
+}
+
+.cp-code:focus {
+    color: red;
+    background-image: linear-gradient(pink, white, pink);
+    border-radius: 5px;
+
+}
+
+.coupon-btn {
+    height: 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(orange, orangered, orange);
+}
+
+.coupon-btn:hover {
+    font-size: large;
+}
+
+/* Sbuscribers */
+#subscribers {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 1px 5px gray;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: calc(5% + 10px);
+    margin-right: calc(5% + 10px);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.followers {
+    text-align: center;
+}
+
+.followers h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.followers p {
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 0;
+
+}
+
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+#eat {
+    color: orange;
+}
+
+#fresh {
+    color: rgb(108, 105, 105);
+}
+
+#happy {
+    font-weight: lighter;
+    color: magenta;
+}
