@@ -112,7 +112,7 @@ p {
 #recipie-item {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    /* width: 90%; (dorker nei etar...!)*/
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 50px;
@@ -133,7 +133,8 @@ p {
 
 .recipie-card img {
     border-radius: 15px;
-    width: 50%;
+    width: 100%;
+   
 }
 
 /* price,coupon,button */
